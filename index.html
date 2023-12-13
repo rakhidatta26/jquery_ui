@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tag -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="3 days">
+    <meta name="author" content="Rakhi">
+
+    <title>jQuery UI</title>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+ 
+  </head>
+
+  <body>
+   <div class="container">
+      
+    
+  <!-- Draggable -->
+    <div class="">
+      <h2 class="mb-3">1. Draggable</h2>
+      <div id="draggable">
+        <p>Drag me around</p>
+      </div>
+      <hr/>
+    </div>
+    <!-- Droppable -->
+     <div class="">
+      <h2 class="mb-3">2. Droppable</h2>
+      <div class="ex_2">
+      <div id="draggable1" class="ui-widget-content">
+        <p>Drag me to my target</p>
+      </div>
+ 
+      <div id="droppable1" class="ui-widget-header">
+          <p>Drop here</p>
+        </div>
+        </div>
+      <hr/>
+      </div>
+      <!-- Resizable -->
+      <div>
+        <h2 class="mb-3">3. Resizable</h2>
+        <div>
+          <div id="resizable" class="ui-widget-content">
+         <h3 class="ui-widget-header">Resizable</h3>
+          </div>
+        </div>
+        <hr/>
+      </div>
+
+      <!-- Selectable -->
+      <div>
+        <h2 class="mb-3">4. Selectable</h2>
+        <div>
+          <ul id="selectable">
+            <li class="ui-widget-content">Item 1</li>
+            <li class="ui-widget-content">Item 2</li>
+            <li class="ui-widget-content">Item 3</li>
+            <li class="ui-widget-content">Item 4</li>
+          </ul>
+        </div>
+        <hr>
+      </div>
+      <!-- sortable -->
+       <div>
+        <h2 class="mb-3">5. sortable</h2>
+        <div>
+          <ul id="sortable">
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+          </ul>
+        </div>
+        <hr>
+      </div>
+      <!-- Accordion -->
+      <div>
+        <h2 class="mb-3">6. Accordion</h2>
+        <div>
+          <div id="accordion">
+            <h3>Section 1</h3>
+            <div>
+              <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+            </div>
+            <h3>Section 2</h3>
+            <div>
+              <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+            </div>
+            <h3>Section 3</h3>
+            <div>
+              <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+              <ul>
+                <li>List item one</li>
+                <li>List item two</li>
+                <li>List item three</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+   <!-- Autocomplete-->
+   <div>
+        <h2 class="mb-3">7. Autocomplete</h2>
+        <div>
+          <div class="row">
+            <div class="col-lg-5">
+              <form action="#">
+                <div class="mb-3 mt-3">
+                  <label for="c_name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="c_name">
+                </div>
+                <div class="mb-3">
+                  <button type="submit" class="btn btn-primary w-100">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+     <!-- Datepicker -->
+   <div>
+        <h2 class="mb-3">8. Datepicker</h2>
+        <div>
+          <p>Date: <input type="text" id="datepicker"></p>
+        </div>
+        <hr>
+      </div> 
+     <!-- Tabs -->
+      <div>
+        <h2 class="mb-3">9. Tabs</h2>
+        <div>
+          <div id="tabs">
+            <ul>
+              <li><a href="#tabs-1">tab 1</a></li>
+              <li><a href="#tabs-2">tab 2</a></li>
+              <li><a href="#tabs-3">tab 3</a></li>
+            </ul>
+            <div id="tabs-1">
+              <p><strong>Click this tab again to close the content pane.</strong></p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum mollitia unde omnis totam ipsam ab, quos sapiente animi excepturi odit.
+              </p>
+            </div>
+            <div id="tabs-2">
+              <p><strong>Click this tab again to close the content pane.</strong></p>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur quis est quo, dolor. Odio explicabo consequuntur ipsum quam eius laboriosam.</p>
+            </div>
+            <div id="tabs-3">
+              <p><strong>Click this tab again to close the content pane.</strong></p>
+              <p>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, rerum!</p>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div> 
+      <!-- Tooltip -->
+      <div>
+        <h2 class="mb-3">10. Tooltip</h2>
+        <div>
+          <label for="age">Your age:</label><input id="age" title="We ask for your age only for statistical purposes.">
+          <p>Hover the field to see the tooltip.</p>
+ 
+        </div>
+        <hr>
+      </div> 
+  
+  <!-- Add class -->
+      <div>
+        <h2 class="mb-3">11. Add class</h2>
+        <div>
+         <div class="togg">
+          <div id="effect1" class="ui-corner-all">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, alias.
+          </div>
+        </div>
+ 
+          <button id="button " class="ui-state-default ui-corner-all btn1">Run Effect</button>
+ 
+        </div>
+        <hr>
+      </div> 
+       <!-- show -->
+      <div>
+        <h2 class="mb-3">12. Show</h2>
+        <div>
+         <div class="toggler2">
+  <div id="effect_s" class="ui-widget-content ui-corner-all">
+    <h3 class="ui-widget-header ui-corner-all">Show</h3>
+    <p>
+      Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+    </p>
+  </div>
+</div>
+ 
+<select name="effects_s" id="effect_Types">
+  <option value="blind">Blind</option>
+  <option value="bounce">Bounce</option>
+  <option value="clip">Clip</option>
+  <option value="drop">Drop</option>
+  <option value="explode">Explode</option>
+  <option value="fade">Fade</option>
+  <option value="fold">Fold</option>
+  <option value="highlight">Highlight</option>
+  <option value="puff">Puff</option>
+  <option value="pulsate">Pulsate</option>
+  <option value="scale">Scale</option>
+  <option value="shake">Shake</option>
+  <option value="size">Size</option>
+  <option value="slide">Slide</option>
+</select>
+ 
+<button id="button2" class="ui-state-default ui-corner-all">Run Effect</button>
+        </div>
+        <hr>
+      </div> 
+</div>
+  
+        <!-- js links -->
+    <script src="js/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

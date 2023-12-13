@@ -1,0 +1,127 @@
+/*Draggable*/
+#draggable { 
+  width: 150px; 
+  height: 150px; 
+  padding: 0.5em; 
+  background-color: red
+}
+/*dropable*/
+.ex_2{
+  overflow: hidden;
+}
+#draggable1{
+  width: 100px;
+  height: 100px; 
+  margin: 10px 10px 10px 0;
+  padding: 0.5em; 
+  background-color: blue;
+  float: left; 
+   }
+#droppable1 {
+   width: 150px; 
+   height: 150px;
+   margin: 10px; 
+   padding: 0.5em; 
+   float: left; 
+  }
+/*  resizable*/
+  #resizable { 
+    width: 150px; 
+    height: 150px; 
+    padding: 0.5em; }
+  #resizable h3 {
+    margin: 0;
+   text-align: center; 
+    }
+/*   selectable */
+#feedback { 
+  font-size: 1.4em;
+   }
+  #selectable .ui-selecting { 
+    background: #FECA40; 
+  }
+  #selectable .ui-selected {
+   background: #F39814; 
+   color: white; 
+ }
+  #selectable {
+   list-style-type: none; 
+   margin: 0; 
+   padding: 0; 
+   width: 60%;
+  }
+  #selectable li {
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    height: 53px;
+}
+/*sortable*/
+#sortable {
+ list-style-type: none; 
+ margin: 0; 
+ padding: 0; 
+ width: 60%; 
+}
+  #sortable li {
+   margin: 0 3px 3px 3px; 
+   padding: 10px; 
+   padding-left: 10px; 
+   font-size: 18px; 
+   height: 50px; 
+ }
+  #sortable li span {
+   position: relative;
+    margin-left: -10px;
+} 
+label {
+    display: inline-block;
+    width: 5em;
+  }
+/*  add class*/
+.togg {
+  width: 600px; 
+  height: 140px; 
+  position: relative;
+}
+.btn1 {
+ padding: .5em 1em; 
+ text-decoration: none; 
+}
+#effect1 {
+ width: 240px;  
+ padding: 1em; 
+ border: 1px solid yellow; 
+ background: ash; 
+ color: #333; 
+  background-color: aqua; 
+
+}
+.newClass { 
+  text-indent: 40px; 
+/*  letter-spacing: .4em; */
+  width: 510px; 
+  height: 130px; 
+  padding: 30px; 
+  margin: 10px; 
+  font-size: 1.1em; 
+}
+/*show*/
+.toggler2 {
+  width: 500px;
+  height: 200px;  
+}
+  #button2 { 
+    padding: .5em 1em; 
+    text-decoration: none; 
+  }
+  #effect_s { 
+    width: 240px; 
+    height: 170px; 
+    padding: 0.4em; 
+    position: relative; 
+  }
+  #effect_s h3 { 
+    margin: 0; 
+    padding: 0.4em; 
+    text-align: center; }
